@@ -1,0 +1,67 @@
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+    <input type="hidden" name="oid" value="00D0K0000024Vbe"/>
+    <input type="hidden" name="retURL" value="salesforce.com"/>
+
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+    <!--  these lines if you wish to test in debug mode.                          -->
+    <!--  <input type="hidden" name="debug" value=1>                              -->
+    <!--  <input type="hidden" name="debugEmail"                                  -->
+    <!--  value="tsvirkosergey1990@gmail.com">                                    -->
+    <!--  ----------------------------------------------------------------------  -->
+    <style type="text/css">
+   TABLE {
+    width: 400px;
+    border-collapse: collapse;
+    border: 0px solid black;
+   }
+   TD, TH {
+    padding: 10px;
+    border: 0px solid black;
+   }
+   TH {
+    background: #b0e0e6;
+   }
+  </style>
+    <table border="1px">
+        <tr>
+            <td> <label for="first_name">First Name</label></td><br/>
+            <td><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /></td>
+        </tr>
+        <tr>
+            <td><label for="last_name">Last Name</label></td>
+            <td><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input  id="email" maxlength="80" name="email" size="20" type="text" /></td>
+        </tr>
+        <tr>
+            <td><label for="company">Company</label></td>
+            <td><input  id="company" maxlength="40" name="company" size="20" type="text" /></td>
+        </tr>
+        <tr>
+            <td>Interests:</td>
+            <td><select  id="00N0K00000Kp1k5" multiple="multiple" name="00N0K00000Kp1k5" title="Interests"><option value="VRP">VRP</option>
+                <option value="Coca-Cola">Coca-Cola</option>
+                <option value="Google">Google</option>
+                <option value="eBay">eBay</option>
+            </select></td>
+            <td><input type="submit" name="submit"/></td>
+        </tr>
+    </table>
+</form>

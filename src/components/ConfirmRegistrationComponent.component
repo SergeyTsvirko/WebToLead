@@ -1,0 +1,4 @@
+<apex:component controller="ConfirmRegistrationComponentController" access="global"  > 
+    <apex:attribute name="leadEmail" type="String" assignTo="{!docName}" description="Name of document" />
+    <apex:outputText value="{!documentUrl}"/>  
+</apex:component>
